@@ -26,14 +26,15 @@ Did the following on all web services.
 - [ ] Fingerprinted web server.
 - [ ] Fingerprinted web framework and version.
 - [ ] Tested default credentials.
-- [ ] Crawled with Burp Suite.
+- [ ] Crawled with ZAP.
 - [ ] Fuzzed files and directories. [[Directory discovery]]
 - [ ] Manually browsed the web application.
 	- [ ] Noted pages with GET parameters for SQLi test.
 	- [ ] Noted names and e-mail addresses.
-- [ ] Checked for unusual headers.
-- [ ] Checked all pages for comments.
 - [ ] Checked all input methods for [[Cross-Site Scripting]]
 - [ ] Checked all input methods for [[SQL injection]]
 	- [ ] Query parameteres
 	- [ ] Forms
+- [ ] Checked for unusual headers.
+- [ ] Checked all pages for comments.
+	- [ ] Didn't stop at </html>
