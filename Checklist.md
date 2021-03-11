@@ -8,6 +8,7 @@
 
 ## Network reconnaissance
 
+- [ ] Ran autorecon.
 - [ ] Created host table. [[Host discovery]]
 - [ ] Added OS and versions. [[OS fingerprinting]]
 - [ ] Created port table for all hosts. [[Port scanning]]
@@ -21,20 +22,25 @@
 - [ ] Update host and service tables with new information.
 
 ## Web applications
-Did the following on all web services.
+Did the following cycle on all web services until done.
 
+- [ ] Ran Nikto.
 - [ ] Fingerprinted web server.
 - [ ] Fingerprinted web framework and version.
-- [ ] Tested default credentials.
-- [ ] Crawled with ZAP.
-- [ ] Fuzzed files and directories. [[Directory discovery]]
+	- [ ] Tested default credentials.
 - [ ] Manually browsed the web application.
-	- [ ] Noted pages with GET parameters for SQLi test.
+	- [ ] Tested inputs.
 	- [ ] Noted names and e-mail addresses.
+	- [ ] Excluded requests from ZAP if they generate unwanted data.
+- [ ] Spidered with ZAP.
+- [ ] Fuzzed hidden files and directories in ZAP. [[Directory discovery]]
+- [ ] Attacked with ZAP.
+- [ ] Gathered information.
+	- [ ] Reviewed Information Disclosure alerts in ZAP.
+	- [ ] Reviewed unusubal headers.
+	- [ ] Reviewed HTML comments.
+		- [ ] Didn't stop at `</html>`.
 - [ ] Checked all input methods for [[Cross-Site Scripting]]
 - [ ] Checked all input methods for [[SQL injection]]
-	- [ ] Query parameteres
-	- [ ] Forms
-- [ ] Checked for unusual headers.
-- [ ] Checked all pages for comments.
-	- [ ] Didn't stop at </html>
+- [ ] If found domains, added to `etc/hosts` and connected.
+- [ ] If missing credentials, noted restricted area for [[Brute force]]
