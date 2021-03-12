@@ -47,4 +47,5 @@ Did the following cycle on all web services until done.
 
 ## Network attacks
 
+- [ ] Checked for [[Null sessions]]
 - [ ] If all else failed, ran dictionary attack on services. [[Authentication cracking]]
