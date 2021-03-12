@@ -43,4 +43,8 @@ Did the following cycle on all web services until done.
 - [ ] Checked all input methods for [[Cross-Site Scripting]]
 - [ ] Checked all input methods for [[SQL injection]]
 - [ ] If found domains, added to `etc/hosts` and connected.
-- [ ] If missing credentials, noted restricted area for [[Brute force]]
+- [ ] If missing credentials, noted restricted area for [[Authentication cracking]]
+
+## Network attacks
+
+- [ ] If all else failed, ran dictionary attack on services. [[Authentication cracking]]
