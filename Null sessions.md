@@ -5,7 +5,7 @@ Retrieves information about a Windows machine without credentials.
 
 `nmap -sS -p 135,139,445 <IP>`
 
-## Windows Share service lookup
+## Veryify null session vulnerability
 
 Look for `<20>` flag on share.
 
@@ -18,6 +18,10 @@ Look for `<20>` flag on share.
 `enum4linux -n <IP>`
 
 ## List shares
+
+### smbmap
+
+`smbmap -H <IP>`
 
 ### Nmap
 
@@ -34,16 +38,6 @@ Look for `<20>` flag on share.
 ### Metasploit
 
 `use auxiliary/scanner/smb/smb_enumshares`
-
-## Verify null session vulnerability
-
-### Smbclient
-
-`smbclient //<IP>/IPC$ -N`
-
-### enum4linux
-
-`enum4linux -P 192.168.99.162`
 
 ## List users
 
