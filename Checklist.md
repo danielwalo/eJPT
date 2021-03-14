@@ -21,7 +21,6 @@
 - [ ] Updated host and service tables with new information.
 
 ## Web applications
-Did the following cycle on all web services until done.
 
 - [ ] Fingerprinted web server.
 - [ ] Fingerprinted web framework and version. [[Web framework fingerprinting]]
