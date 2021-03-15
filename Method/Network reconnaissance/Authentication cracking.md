@@ -21,6 +21,8 @@ Use shorter lists for network attacks.
 - `/usr/share/ncrack/minimal.usr`
 - `usr/share/seclists/Usernames/top-usernames-shortlist.txt`
 
+Somewhere in the labs you'll use minimal.usr as **both the username and password file** so it may be worth trying.
+
 ### Passwords
 
 - `/usr/share/seclists/Passwords/Leaked-Databases/rockyou-10.txt`
