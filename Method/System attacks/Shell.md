@@ -8,7 +8,7 @@
 
 ```
 <html>
-	<form action="GET">
+	<form method="GET">
 		<input type="text" name="cmd" />
 		<input type="submit" value="Run" />
 	</form>
