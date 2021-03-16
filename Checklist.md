@@ -15,8 +15,6 @@
 
 ## Vulnerability assessment
 
-- [ ] Ran Nessus basic network scan on all hosts.
-- [ ] Ran Nessus web application scan on hosts with http(s) services.
 - [ ] Added vulnerabilities that should be investigated to [[Vulnerability report]].
 - [ ] Updated host and service tables with new information.
 
